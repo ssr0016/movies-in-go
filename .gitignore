@@ -1,0 +1,27 @@
+# === General ===
+.env
+*.log
+*.tmp
+*.bak
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Go backend ===
+backend/bin/
+backend/vendor/
+backend/*.exe
+backend/*.out
+backend/*.log
+
+# === Node / React (just in case) ===
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# === Dependencies ===
+go.sum
+go.mod
